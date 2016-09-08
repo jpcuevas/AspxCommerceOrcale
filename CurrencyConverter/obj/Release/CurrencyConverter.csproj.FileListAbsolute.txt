@@ -1,0 +1,5 @@
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\CurrencyConverter\bin\Release\CurrencyConverter.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\CurrencyConverter\bin\Release\CurrencyConverter.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\CurrencyConverter\obj\Release\CurrencyConverter.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\CurrencyConverter\obj\Release\CurrencyConverter.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\CurrencyConverter\obj\Release\CurrencyConverter.pdb

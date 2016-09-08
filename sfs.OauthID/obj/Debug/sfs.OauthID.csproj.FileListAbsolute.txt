@@ -1,0 +1,8 @@
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.OauthID\bin\Debug\sfs.OauthID.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.OauthID\bin\Debug\sfs.OauthID.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.OauthID\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.OauthID\bin\Debug\sfs.Common.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.OauthID\bin\Debug\sfs.Common.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.OauthID\obj\Debug\sfs.OauthID.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.OauthID\obj\Debug\sfs.OauthID.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.OauthID\obj\Debug\sfs.OauthID.csprojResolveAssemblyReference.cache

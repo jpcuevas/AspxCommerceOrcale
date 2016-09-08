@@ -1,0 +1,8 @@
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.CDN\bin\Debug\sfs.CDN.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.CDN\bin\Debug\sfs.CDN.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.CDN\bin\Debug\sfs.Common.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.CDN\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.CDN\bin\Debug\sfs.Common.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.CDN\obj\Debug\sfs.CDN.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.CDN\obj\Debug\sfs.CDN.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.CDN\obj\Debug\sfs.CDN.pdb

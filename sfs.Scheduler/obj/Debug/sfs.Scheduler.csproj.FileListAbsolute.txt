@@ -1,0 +1,8 @@
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Scheduler\bin\Debug\sfs.Scheduler.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Scheduler\bin\Debug\sfs.Scheduler.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Scheduler\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Scheduler\bin\Debug\sfs.Common.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Scheduler\bin\Debug\sfs.Common.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Scheduler\obj\Debug\sfs.Scheduler.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Scheduler\obj\Debug\sfs.Scheduler.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Scheduler\obj\Debug\sfs.Scheduler.pdb

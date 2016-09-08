@@ -1,0 +1,9 @@
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.FileManager\obj\Debug\sfs.FileManager.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.FileManager\bin\Debug\sfs.FileManager.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.FileManager\bin\Debug\sfs.FileManager.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.FileManager\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.FileManager\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.FileManager\bin\Debug\sfs.Common.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.FileManager\bin\Debug\sfs.Common.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.FileManager\obj\Debug\sfs.FileManager.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.FileManager\obj\Debug\sfs.FileManager.pdb

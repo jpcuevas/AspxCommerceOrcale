@@ -1,0 +1,7 @@
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\ModuleManager\bin\Release\ModuleManager.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\ModuleManager\bin\Release\ModuleManager.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\ModuleManager\bin\Release\Oracle.DataAccess.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\ModuleManager\bin\Release\sfs.Common.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\ModuleManager\bin\Release\sfs.Common.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\ModuleManager\obj\Release\ModuleManager.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\ModuleManager\obj\Release\ModuleManager.pdb

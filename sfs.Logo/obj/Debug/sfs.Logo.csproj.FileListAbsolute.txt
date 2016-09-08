@@ -1,0 +1,8 @@
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Logo\bin\Debug\sfs.Logo.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Logo\bin\Debug\sfs.Logo.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Logo\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Logo\bin\Debug\sfs.Common.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Logo\bin\Debug\sfs.Common.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Logo\obj\Debug\sfs.Logo.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Logo\obj\Debug\sfs.Logo.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.Logo\obj\Debug\sfs.Logo.csprojResolveAssemblyReference.cache

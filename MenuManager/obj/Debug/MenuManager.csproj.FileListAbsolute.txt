@@ -1,0 +1,10 @@
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\MenuManager\bin\Debug\MenuManager.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\MenuManager\bin\Debug\MenuManager.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\MenuManager\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\MenuManager\bin\Debug\sfs.Common.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\MenuManager\bin\Debug\sfs.Pages.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\MenuManager\bin\Debug\sfs.Common.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\MenuManager\bin\Debug\sfs.Pages.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\MenuManager\obj\Debug\MenuManager.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\MenuManager\obj\Debug\MenuManager.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\MenuManager\obj\Debug\MenuManager.pdb

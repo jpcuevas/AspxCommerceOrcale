@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resourcemaps>
+  <resourcemap>
+    <modules>template,ui,aspxadminnotificationview,languageswitch,currencyconversion,aspxheadercontrol,simplesearch,shoppingbagheader,megacategoryview,sageresponsivebanner,latestitems,specialcss,brandslider,itemscompare,browsebycategory,newsletter,templatecss</modules>
+    <map>9c1f69e5dbe199dc</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>aspxadminnotificationview,aspxheadercontrol,browsebycategory,categorybreadcrumb,categorydetailcss,currencyconversion,itemscompare,languageswitch,megacategoryview,newsletter,shoppingbagheader,simplesearch,template,templatecss,ui</modules>
+    <map>ee95bba3c529ee88</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>aspxadminnotificationview,aspxheadercontrol,browsebycategory,categorybreadcrumb,currencyconversion,itemscompare,languageswitch,megacategoryview,mycart,newsletter,shoppingbagheader,simplesearch,template,templatecss,ui</modules>
+    <map>19b6bbeaf0f4d35e</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>aspxheadercontrol,browsebycategory,categorybreadcrumb,itemscompare,megacategoryview,mycart,newsletter,shoppingbagheader,simplesearch,template,templatecss</modules>
+    <map>82f9d89812ac833a</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>aspxadminnotificationview,aspxheadercontrol,browsebycategory,categorybreadcrumb,checkoutinformationcontent,currencyconversion,itemscompare,languageswitch,megacategoryview,newsletter,shoppingbagheader,simplesearch,template,templatecss,ui</modules>
+    <map>9b4fb3e8ebf1c45a</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>aspxadminnotificationview,aspxheadercontrol,browsebycategory,categorybreadcrumb,currencyconversion,itemscompare,languageswitch,megacategoryview,newsletter,shoppingbagheader,simplesearch,template,templatecss,ui</modules>
+    <map>d2549b914bc99190</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>browsebycategory,languageswitch,newsletter,sageresponsivebanner,template,templatecss,ui</modules>
+    <map>60c5cf14784bcaa0</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>template,templatecss</modules>
+    <map>2517e3876e7669ea</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>aspxadminnotificationview,aspxheadercontrol,browsebycategory,categorybreadcrumb,currencyconversion,itemcomparedetails,languageswitch,megacategoryview,newsletter,shoppingbagheader,simplesearch,template,templatecss,ui</modules>
+    <map>9ba46a6d2e047807</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>browsebycategory,languageswitch,newsletter,template,templatecss,ui</modules>
+    <map>360c35fe326f87fd</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>template,templatecss,userregistration</modules>
+    <map>be246d0957a9bd9a</map>
+  </resourcemap>
+</resourcemaps>

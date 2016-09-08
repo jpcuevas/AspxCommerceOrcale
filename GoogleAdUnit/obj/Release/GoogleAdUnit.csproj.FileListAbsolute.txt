@@ -1,0 +1,5 @@
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\GoogleAdUnit\bin\Release\GoogleAdUnit.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\GoogleAdUnit\bin\Release\GoogleAdUnit.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\GoogleAdUnit\obj\Release\GoogleAdUnit.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\GoogleAdUnit\obj\Release\GoogleAdUnit.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\GoogleAdUnit\obj\Release\GoogleAdUnit.pdb

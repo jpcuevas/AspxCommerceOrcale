@@ -1,0 +1,4 @@
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\CurrencyConverter\bin\Debug\CurrencyConverter.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\CurrencyConverter\bin\Debug\CurrencyConverter.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\CurrencyConverter\obj\Debug\CurrencyConverter.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\CurrencyConverter\obj\Debug\CurrencyConverter.pdb

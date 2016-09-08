@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{89999198-74CE-4C0E-A9EF-5ADDF36F5D97}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>sfs.Core</RootNamespace>
+    <AssemblyName>sfs.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core">
+      <HintPath>..\bin\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Owin">
+      <HintPath>..\bin\Microsoft.AspNet.SignalR.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb">
+      <HintPath>..\bin\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\bin\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\BaseAdministrationUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\IConfigurePaymentMethodModule.cs" />
+    <Compile Include="Controls\SageFrameStartUpControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SageUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoreCss.cs" />
+    <Compile Include="CoreJs.cs" />
+    <Compile Include="Framework\AppErazer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Framework\ApplicationController.cs" />
+    <Compile Include="Framework\ApplicationKeys.cs" />
+    <Compile Include="Framework\AuthenticateService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Framework\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Framework\SecurityPolicy.cs" />
+    <Compile Include="Framework\ServerController.cs" />
+    <Compile Include="Global.asax.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="Localization\Localization.cs" />
+    <Compile Include="SageFrameClass\CaptchaImage.cs" />
+    <Compile Include="SageFrameClass\EncryptDecryptQueryString.cs" />
+    <Compile Include="SageFrameClass\ErrorHandling.cs" />
+    <Compile Include="SageFrameClass\ImageFile.cs" />
+    <Compile Include="SageFrameClass\Obsolete.cs" />
+    <Compile Include="SageFrameClass\PictureManager.cs" />
+    <Compile Include="SageFrameClass\SageFrameRouteHandler.cs" />
+    <Compile Include="SageFrameClass\SageFrameWebService.asmx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SecurePage.cs" />
+    <Compile Include="sfs.Modules\ModuleController.cs" />
+    <Compile Include="sfs.Modules\ModuleEntities.cs" />
+    <Compile Include="sfs.Modules\ModuleProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SageFrameClass\SageFrameLists.cs" />
+    <Compile Include="SageFrameClass\SageFrameRoute.cs" />
+    <Compile Include="ServiceSecurity.cs" />
+    <Compile Include="Services\Installer\Component.cs" />
+    <Compile Include="Services\Installer\CompositeModule.cs" />
+    <Compile Include="Services\Installer\ControlInfo.cs" />
+    <Compile Include="Services\Installer\IModuleExtraCodeExecute.cs" />
+    <Compile Include="Services\Installer\Installers.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services\Installer\ModuleElement.cs" />
+    <Compile Include="Services\Installer\ModuleInfoPackage.cs" />
+    <Compile Include="Services\Installer\ModuleSfeWriter.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services\Installer\SfeWriter.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services\Installer\ZipUtil.cs" />
+    <Compile Include="Services\Minifiers\CssMinifier.cs" />
+    <Compile Include="Services\Minifiers\JsMinifier.cs" />
+    <Compile Include="Sfs.GoogleAdsense\GoogleAdsenseController.cs" />
+    <Compile Include="Sfs.GoogleAdsense\GoogleAdsenseInfo.cs" />
+    <Compile Include="Sfs.GoogleAdsense\GoogleAdsenseProvider.cs" />
+    <Compile Include="Sfs.HTMLText\HTMLContentInfo.cs" />
+    <Compile Include="Sfs.HTMLText\HTMLController.cs" />
+    <Compile Include="Sfs.HTMLText\HTMLDataProvider.cs" />
+    <Compile Include="sfs.ListManagement\Controller\ListManagementController.cs" />
+    <Compile Include="sfs.ListManagement\Entities\FeedbackSettingInfo.cs" />
+    <Compile Include="sfs.ListManagement\Entities\ListInfo.cs" />
+    <Compile Include="sfs.ListManagement\Entities\ListManagementInfo.cs" />
+    <Compile Include="sfs.ListManagement\Provider\ListManagementProvider.cs" />
+    <Compile Include="sfs.LogView\LogController.cs" />
+    <Compile Include="sfs.LogView\LogInfo.cs" />
+    <Compile Include="sfs.LogView\LogProvider.cs" />
+    <Compile Include="sfs.Message\MessageManagementController.cs" />
+    <Compile Include="sfs.Message\MessageManagementInfo.cs" />
+    <Compile Include="sfs.Message\MessageManagementProvider.cs" />
+    <Compile Include="sfs.Message\MessageManagement\MailHelper.cs" />
+    <Compile Include="sfs.Message\MessageManagement\MessageToken.cs" />
+    <Compile Include="sfs.Packages\PackagesController.cs" />
+    <Compile Include="sfs.Packages\PackagesInfo.cs" />
+    <Compile Include="sfs.Packages\PackagesProvider.cs" />
+    <Compile Include="sfs.PortalSetting\PortalController.cs" />
+    <Compile Include="sfs.PortalSetting\PortalInfo.cs" />
+    <Compile Include="sfs.PortalSetting\PortalProvider.cs" />
+    <Compile Include="sfs.ProfileManagement\ProfileManagementController.cs" />
+    <Compile Include="sfs.ProfileManagement\ProfileManagementInfo.cs" />
+    <Compile Include="sfs.ProfileManagement\ProfileManagementProvider.cs" />
+    <Compile Include="sfs.ProfileManagement\Profile\ProfilePropertyDefinitionCollection.cs" />
+    <Compile Include="sfs.ProfileManagement\Profile\ProfilePropertyDefinitionComparer.cs" />
+    <Compile Include="sfs.RolesManagement\RolesManagementController.cs" />
+    <Compile Include="sfs.RolesManagement\RolesManagementInfo.cs" />
+    <Compile Include="sfs.RolesManagement\RolesManagementProvider.cs" />
+    <Compile Include="sfs.Search\SageFrameSearch.cs" />
+    <Compile Include="sfs.Search\SageFrameSearchInfo.cs" />
+    <Compile Include="sfs.Search\SageFrameSearchProcedureInfo.cs" />
+    <Compile Include="sfs.Search\SageFrameSearchSettingInfo.cs" />
+    <Compile Include="sfs.SessionTracking\SessionLog.cs" />
+    <Compile Include="sfs.SessionTracking\SessionTracker.cs" />
+    <Compile Include="sfs.SessionTracking\SessionTrackerController.cs" />
+    <Compile Include="sfs.SessionTracking\SessionTrackerPage.cs" />
+    <Compile Include="sfs.UserAgent\UserAgentController.cs" />
+    <Compile Include="sfs.UserAgent\UserAgentInfo.cs" />
+    <Compile Include="sfs.UserAgent\UserAgentProvider.cs" />
+    <Compile Include="sfs.UserManagement\ForgotPasswordInfo.cs" />
+    <Compile Include="sfs.UserManagement\UserManagementController.cs" />
+    <Compile Include="sfs.UserManagement\UserManagementInfo.cs" />
+    <Compile Include="sfs.UserManagement\UserManagementProvider.cs" />
+    <Compile Include="ShortUrl\ShortUrlController.cs" />
+    <Compile Include="ShortUrl\ShortUrlProvider.cs" />
+    <Compile Include="SystemEventStartUp\SystemEventLocationInfo.cs" />
+    <Compile Include="SystemEventStartUp\SystemEventStartUpInfo.cs" />
+    <Compile Include="SystemEventStartUp\SystemStartupController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\sfs.CDN\sfs.CDN.csproj">
+      <Project>{22c5d7fe-b4c4-4498-938b-fd6748643c12}</Project>
+      <Name>sfs.CDN</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sfs.Common\sfs.Common.csproj">
+      <Project>{0ed47fad-2357-4378-895e-4ab4bd17438c}</Project>
+      <Name>sfs.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sfs.Dashboard\sfs.Dashboard.csproj">
+      <Project>{b0badfa1-0002-4e55-b6d8-4c0d61bb5cb7}</Project>
+      <Name>sfs.Dashboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sfs.Scheduler\sfs.Scheduler.csproj">
+      <Project>{beb6aba2-c89a-4431-a4ab-cdc2c78a7a01}</Project>
+      <Name>sfs.Scheduler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sfs.Security\sfs.Security.csproj">
+      <Project>{5d984ba3-dd6d-411b-af0e-f6c86b0b7752}</Project>
+      <Name>sfs.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\sfs.Templating\sfs.Templating.csproj">
+      <Project>{3cc3e4a8-dcce-438a-a86a-90f56331adee}</Project>
+      <Name>sfs.Templating</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

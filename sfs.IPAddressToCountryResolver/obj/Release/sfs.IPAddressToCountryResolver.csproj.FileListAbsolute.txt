@@ -1,0 +1,5 @@
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.IPAddressToCountryResolver\bin\Release\sfs.IPAddressToCountryResolver.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.IPAddressToCountryResolver\bin\Release\sfs.IPAddressToCountryResolver.pdb
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.IPAddressToCountryResolver\obj\Release\sfs.IPAddressToCountryResolver.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.IPAddressToCountryResolver\obj\Release\sfs.IPAddressToCountryResolver.dll
+C:\Users\Christopher\Documents\Visual Studio 2012\Projects\SfsCommerce\sfs.IPAddressToCountryResolver\obj\Release\sfs.IPAddressToCountryResolver.pdb
