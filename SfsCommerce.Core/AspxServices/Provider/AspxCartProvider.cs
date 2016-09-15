@@ -301,7 +301,8 @@ namespace AspxCommerce.Core
                parameter.Add(new KeyValuePair<string, object>("CustomerID", customerID));
                parameter.Add(new KeyValuePair<string, object>("SessionCode", sessionCode));
                OracleHandler sqlH = new OracleHandler();
-               bool isUpdate= sqlH.ExecuteNonQueryAsBool("usp_Aspx_UpdateCartAnonymousUserToRegistered", parameter, "IsUpdate");
+               //bool isUpdate= sqlH.ExecuteNonQueryAsBool("usp_Aspx_UpdateCartAnonymousUserToRegistered", parameter, "IsUpdate");
+               bool isUpdate= sqlH.ExecuteNonQueryAsBool("usp_Aspx_UpdateCartAnonymousUs", parameter, "IsUpdate");
                return isUpdate;
            }
            catch (Exception e)

@@ -7586,7 +7586,8 @@ public class AspxCommerceWebService : System.Web.Services.WebService
             ParaMeter.Add(new KeyValuePair<string, object>("CustomerID", customerID));
             ParaMeter.Add(new KeyValuePair<string, object>("SessionCode", sessionCode));
             OracleHandler sqlH = new OracleHandler();
-            return sqlH.ExecuteNonQueryAsBool("usp_ASPX_UpdateCartAnonymoususertoRegistered", ParaMeter, "IsUpdate");
+            //return sqlH.ExecuteNonQueryAsBool("usp_ASPX_UpdateCartAnonymoususertoRegistered", ParaMeter, "IsUpdate");
+            return sqlH.ExecuteNonQueryAsBool("usp_Aspx_UpdateCartAnonymousUs", ParaMeter, "IsUpdate");
         }
         catch (Exception ex)
         {

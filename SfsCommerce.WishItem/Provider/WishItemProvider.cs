@@ -59,9 +59,9 @@ namespace AspxCommerce.WishItem
             {
                 List<KeyValuePair<string, object>> parameter = CommonParmBuilder.GetParamSPUC(aspxCommonObj);
                 parameter.Add(new KeyValuePair<string, object>("offset", offset));
-                parameter.Add(new KeyValuePair<string, object>("limit", limit));
-                parameter.Add(new KeyValuePair<string, object>("flag", flagShowAll));
-                parameter.Add(new KeyValuePair<string, object>("Count", count));
+                parameter.Add(new KeyValuePair<string, object>("limit_", limit));
+                parameter.Add(new KeyValuePair<string, object>("flag", Convert.ToBoolean(Convert.ToInt32(flagShowAll))));
+                parameter.Add(new KeyValuePair<string, object>("Count_", count));
                 parameter.Add(new KeyValuePair<string, object>("SortBy", sortBy));
                 OracleHandler sqlH = new OracleHandler();
                 List<WishItemsInfo> lstWishItem = sqlH.ExecuteAsList<WishItemsInfo>("usp_Aspx_GetWishItemList", parameter);

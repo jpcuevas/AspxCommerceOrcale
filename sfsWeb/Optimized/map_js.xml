@@ -60,4 +60,20 @@
     <modules>Core,portal,UserRegistration,UserRegistrationValidation</modules>
     <map>7342c864260fbc32</map>
   </resourcemap>
+  <resourcemap>
+    <modules>AspxAdminNotificationView,AspxCommereCore,AspxHeaderControl,BreadCrumb,Core,Currencyconversion,CurrencyConvert,itemdetails,ItemDetails,ItemDetailTab,ItemImageGallery,ItemsCompare,LanguageSwitch,Masonry,MegaCategoryView,newsjs,portal,Session,ShoppingBagHeader,SimpleSearch,YouMayAlsoLike</modules>
+    <map>ca1784e9c010aae3</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>AspxAdminNotificationView,AspxCommereCore,Core,CurrencyConvert,Masonry,portal,Session</modules>
+    <map>bebc241686cb3e28</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>Core,CurrencyConvert,LanguageSwitch,Masonry,newsjs,portal,Sage_Banner,Session</modules>
+    <map>abd82458a6ad1292</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>Core,CurrencyConvert,itemdetails,ItemDetailTab,LanguageSwitch,Masonry,newsjs,portal,Session</modules>
+    <map>663a7b9b1302a501</map>
+  </resourcemap>
 </resourcemaps>

@@ -44,4 +44,12 @@
     <modules>template,templatecss,userregistration</modules>
     <map>be246d0957a9bd9a</map>
   </resourcemap>
+  <resourcemap>
+    <modules>aspxadminnotificationview,aspxheadercontrol,browsebycategory,categorybreadcrumb,currencyconversion,itemdetails,itemimagegallery,itemscompare,languageswitch,megacategoryview,newsletter,shoppingbagheader,simplesearch,template,templatecss,ui</modules>
+    <map>9897ace87dbfd781</map>
+  </resourcemap>
+  <resourcemap>
+    <modules>aspxadminnotificationview,template,templatecss,ui</modules>
+    <map>1e7613f1ce1714f5</map>
+  </resourcemap>
 </resourcemaps>

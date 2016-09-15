@@ -178,7 +178,7 @@ namespace AspxCommerce.Core
                 List<KeyValuePair<string, object>> parameterCollection = CommonParmBuilder.GetParamSPC(aspxCommonObj);
                 parameterCollection.Add(new KeyValuePair<string, object>("OrderID", orderId));
                 OracleHandler sqlH = new OracleHandler();
-                List<OrderItemsInfo> lstOrderItem = sqlH.ExecuteAsList<OrderItemsInfo>("usp_Aspx_GetAddressDetailsByOrderID", parameterCollection);
+                List<OrderItemsInfo> lstOrderItem = sqlH.ExecuteAsList<OrderItemsInfo>("usp_Aspx_GetAddressDetailsByOr", parameterCollection);
                 return lstOrderItem;
             }
             catch (Exception e)
@@ -194,7 +194,7 @@ namespace AspxCommerce.Core
                 List<KeyValuePair<string, object>> parameterCollection = CommonParmBuilder.GetParamSPC(aspxCommonObj);
                 parameterCollection.Add(new KeyValuePair<string, object>("OrderID", orderId));
                 OracleHandler sqlH = new OracleHandler();
-                List<OrderItemsTaxInfo> lstOrderItem = sqlH.ExecuteAsList<OrderItemsTaxInfo>("usp_Aspx_GetTaxDetailsByOrderID", parameterCollection);
+                List<OrderItemsTaxInfo> lstOrderItem = sqlH.ExecuteAsList<OrderItemsTaxInfo>("usp_Aspx_GetTaxDetailsByOrderI", parameterCollection);
                 return lstOrderItem;
             }
             catch (Exception e)

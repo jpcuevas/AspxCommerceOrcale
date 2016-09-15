@@ -654,7 +654,8 @@ public partial class Modules_AspxCommerce_AspxStartUpEvents_AspxStartUpEvent : S
             ParaMeter.Add(new KeyValuePair<string, object>("CustomerID", customerID));
             ParaMeter.Add(new KeyValuePair<string, object>("SessionCode", sessionCode));
             OracleHandler sqlH = new OracleHandler();
-            return sqlH.ExecuteNonQueryAsBool("usp_Aspx_UpdateCartAnonymousUserToRegistered", ParaMeter, "@IsUpdate");
+            return sqlH.ExecuteNonQueryAsBool("usp_Aspx_UpdateCartAnonymousUs", ParaMeter, "@IsUpdate");
+            //return sqlH.ExecuteNonQueryAsBool("usp_Aspx_UpdateCartAnonymousUserToRegistered", ParaMeter, "@IsUpdate");
         }
         catch (Exception ex)
         {

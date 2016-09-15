@@ -513,29 +513,29 @@ namespace AspxCommerce.Core
                 foreach (OrderItemInfo objItems in orderData.LstOrderItemsInfo)
                 {
                     List<KeyValuePair<string, object>> parameter = new List<KeyValuePair<string, object>>();
-                    parameter.Add(new KeyValuePair<string, object>("@OrderID", orderID));
+                    parameter.Add(new KeyValuePair<string, object>("OrderID", orderID));
                     if (orderData.ObjOrderDetails.IsGuestUser)
-                        parameter.Add(new KeyValuePair<string, object>("@UserShippingAddressID", shippingAddressID));
+                        parameter.Add(new KeyValuePair<string, object>("UserShippingAddressID", shippingAddressID));
                     else
-                        parameter.Add(new KeyValuePair<string, object>("@UserShippingAddressID", objItems.ShippingAddressID > 0 ? shippingAddressID : 0));
-                    parameter.Add(new KeyValuePair<string, object>("@ShippingMethodID", objItems.ShippingMethodID));
-                    parameter.Add(new KeyValuePair<string, object>("@ItemID", objItems.ItemID));
-                    parameter.Add(new KeyValuePair<string, object>("@Price", objItems.Price));
-                    parameter.Add(new KeyValuePair<string, object>("@Quantity", objItems.Quantity));
-                    parameter.Add(new KeyValuePair<string, object>("@Weight", objItems.Weight));
-                    parameter.Add(new KeyValuePair<string, object>("@Remarks", objItems.Remarks));
-                    parameter.Add(new KeyValuePair<string, object>("@ShippingRate", objItems.ShippingRate));
+                        parameter.Add(new KeyValuePair<string, object>("UserShippingAddressID", objItems.ShippingAddressID > 0 ? shippingAddressID : 0));
+                    parameter.Add(new KeyValuePair<string, object>("ShippingMethodID", objItems.ShippingMethodID));
+                    parameter.Add(new KeyValuePair<string, object>("ItemID", objItems.ItemID));
+                    parameter.Add(new KeyValuePair<string, object>("Price", objItems.Price));
+                    parameter.Add(new KeyValuePair<string, object>("Quantity", objItems.Quantity));
+                    parameter.Add(new KeyValuePair<string, object>("Weight", objItems.Weight));
+                    parameter.Add(new KeyValuePair<string, object>("Remarks", objItems.Remarks));
+                    parameter.Add(new KeyValuePair<string, object>("ShippingRate", objItems.ShippingRate));
 
-                    parameter.Add(new KeyValuePair<string, object>("@StoreID", orderData.ObjCommonInfo.StoreID));
-                    parameter.Add(new KeyValuePair<string, object>("@PortalID", orderData.ObjCommonInfo.PortalID));
-                    parameter.Add(new KeyValuePair<string, object>("@CultureName", orderData.ObjCommonInfo.CultureName));
-                    parameter.Add(new KeyValuePair<string, object>("@AddedBy", orderData.ObjCommonInfo.AddedBy));
-                    parameter.Add(new KeyValuePair<string, object>("@CostVariants", objItems.Variants));
-                    parameter.Add(new KeyValuePair<string, object>("@RewardedPoints", objItems.RewardedPoints));
+                    parameter.Add(new KeyValuePair<string, object>("StoreID", orderData.ObjCommonInfo.StoreID));
+                    parameter.Add(new KeyValuePair<string, object>("PortalID", orderData.ObjCommonInfo.PortalID));
+                    parameter.Add(new KeyValuePair<string, object>("CultureName", orderData.ObjCommonInfo.CultureName));
+                    parameter.Add(new KeyValuePair<string, object>("AddedBy", orderData.ObjCommonInfo.AddedBy));
+                    parameter.Add(new KeyValuePair<string, object>("CostVariants", objItems.Variants));
+                    parameter.Add(new KeyValuePair<string, object>("RewardedPoints", objItems.RewardedPoints));
 
                     //allow null
-                    parameter.Add(new KeyValuePair<string, object>("@KitDescription", objItems.KitDescription));
-                    parameter.Add(new KeyValuePair<string, object>("@KitData", objItems.KitData));
+                    parameter.Add(new KeyValuePair<string, object>("KitDescription", objItems.KitDescription));
+                    parameter.Add(new KeyValuePair<string, object>("KitData", objItems.KitData));
                     //parameter.Add(new KeyValuePair<string, object>("@AddressID", orderData.ObjShippingAddressInfo.AddressID));
                     //parameter.Add(new KeyValuePair<string, object>("@Country", orderData.ObjShippingAddressInfo.Country));
                     //parameter.Add(new KeyValuePair<string, object>("@State", orderData.ObjShippingAddressInfo.State));
